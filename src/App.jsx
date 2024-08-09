@@ -1,5 +1,11 @@
+import { Outlet } from 'react-router-dom'
+
 const App = () => {
-	return <span className='border-2 border-blue-500'>Hello world!</span>
+	return (
+		<>
+			<Outlet />
+		</>
+	)
 }
 
 export default App
